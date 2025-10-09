@@ -31,19 +31,15 @@
     "rhyver.md"
   ],
   "devDependencies": {
-    "@new-ui/colors": "^2.0.1",
-    "@new-ui/foundations": "^0.2.5",
-    "@new-ui/reset": "^0.0.9",
-    "@new-ui/spacings": "^0.1.5",
-    "@new-ui/typography": "^0.1.8",
-    "@types/node": "^24.2.0",
-    "commander": "^14.0.0",
+    "@new-ui/foundations": "^0.2.6",
+    "@types/node": "^24.7.0",
+    "commander": "^14.0.1",
     "date-fns": "^4.1.0",
-    "sass-embedded": "^1.90.0",
+    "sass-embedded": "^1.93.2",
     "ts-node": "^10.9.2",
     "tsup": "^8.5.0",
-    "tsx": "^4.20.3",
-    "typescript": "^5.9.2",
-    "vite": "^7.0.6"
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3",
+    "vite": "^7.1.9"
   }
 }
