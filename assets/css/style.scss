@@ -20,7 +20,7 @@
     font-size: 16px;
     --sans: "sans", var(--system-ui);
     --code: "mono", var(--monospace-code);
-    --rhyver: oklch(0.751 0.1574 60.15);
+    --rhyver: #F4B603;
     scroll-behavior: smooth;
     scroll-padding-top: 2rem;
 }
@@ -46,7 +46,7 @@
 
 body {
     background: var(--background);
-    color: var(--text-primary);
+    color: var(--content-primary);
     display: flex;
     flex-direction: column;
     font-family: var(--sans);
@@ -142,7 +142,7 @@ h1 {
     + p + p {
         font-size: var(--desktop-body-xl);
         line-height: var(--lh-desktop-body-xl);
-        color: var(--text-secondary);
+        color: var(--content-secondary);
         margin-bottom: var(--spacing-09);
 
         @media screen and (max-width: 600px) {
@@ -194,7 +194,7 @@ p + h5 {
 
 p, li {
     margin-bottom: var(--spacing-07);
-    color: var(--text-primary);
+    color: var(--content-primary);
     overflow-wrap: break-word;
     text-justify: inter-word;
 
@@ -204,13 +204,13 @@ p, li {
 }
 
 #faqs p {
-    color: var(--text-secondary);
+    color: var(--content-secondary);
 }
 
 span, strong {
     font-weight: 500;
     font-family: var(--code);
-    color: var(--text-primary);
+    color: var(--content-primary);
     text-decoration: underline dotted var(--border);
     text-underline-offset: var(--spacing-02);
 }
@@ -279,7 +279,7 @@ ol {
 
 blockquote {
     padding: 0 0 0 12px;
-    color: var(--text-primary);
+    color: var(--content-primary);
     border-left: 3px solid var(--border);
     margin-bottom: var(--spacing-07);
 
@@ -308,13 +308,13 @@ table {
 
 th {
     @extend %table-cell-base;
-    color: var(--text-primary);
+    color: var(--content-primary);
     font-weight: 500;
 }
 
 td {
     @extend %table-cell-base;
-    color: var(--text-secondary);
+    color: var(--content-secondary);
     font-size: var(--desktop-body-sm);
     line-height: var(--lh-desktop-body-sm);
     
@@ -336,7 +336,7 @@ code {
     line-height: var(--lh-desktop-code);
     font-family: var(--code);
     margin-bottom: var(--spacing-07);
-    color: var(--text-primary);
+    color: var(--content-primary);
 }
 
 pre {
@@ -365,7 +365,7 @@ pre {
         border: 0;
 
         span {
-            color: var(--text-secondary-alt);
+            color: var(--content-secondary-alt);
             text-decoration: none;
         }
     }
@@ -408,7 +408,7 @@ dl {
     }
 
     dd {
-        color: var(--text-secondary);
+        color: var(--content-secondary);
     }
 }
 
