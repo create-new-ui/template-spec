@@ -1,6 +1,6 @@
 # Template, Spec
 
-![Preview](public/preview-spec.png)
+![Preview](https://new-ui.com/assets/images/templates/preview-spec.webp)
 
 A simple vanilla template for publishing better spec pages. 
 
