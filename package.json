@@ -31,7 +31,7 @@
     "rhyver.md"
   ],
   "devDependencies": {
-    "@new-ui/foundations": "^0.3.3",
+    "@new-ui/foundations": "^0.3.4",
     "@types/node": "^25.0.3",
     "commander": "^14.0.2",
     "date-fns": "^4.1.0",
