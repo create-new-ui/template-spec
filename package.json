@@ -31,15 +31,15 @@
     "rhyver.md"
   ],
   "devDependencies": {
-    "@new-ui/foundations": "^0.3.2",
-    "@types/node": "^24.10.1",
+    "@new-ui/foundations": "^0.3.3",
+    "@types/node": "^25.0.3",
     "commander": "^14.0.2",
     "date-fns": "^4.1.0",
-    "sass-embedded": "^1.93.3",
+    "sass-embedded": "^1.97.1",
     "ts-node": "^10.9.2",
     "tsup": "^8.5.1",
-    "tsx": "^4.20.6",
+    "tsx": "^4.21.0",
     "typescript": "^5.9.3",
-    "vite": "^7.2.2"
+    "vite": "^7.3.0"
   }
 }

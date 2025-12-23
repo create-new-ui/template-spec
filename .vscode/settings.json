@@ -1,0 +1,6 @@
+{
+    "git.confirmSync": false,
+    "git.enableStatusBarSync": false,
+    "editor.experimental.asyncTokenization": false,
+    "editor.wordWrap": "on"
+}
